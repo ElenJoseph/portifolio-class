@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact | Elen</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="bodyOpacity"></div>
+    <nav id="nav">
+    </nav>
+
+    <div class="contact">
+
+        <h2>Contact me</h2>
+        <p>Get more information about my work, vidoes, design, trips and tips, or even more. I will be happy to help you on anything you need.</p>
+
+        <div id="alert">
+            <!--            msg will come from javascript-->
+        </div>
+        <form>
+            <label for="first">First Name</label><input required id="first" type="text">
+            <label for="last">Last Name</label><input id="last" type="text">
+            <label for="email">Email</label><input required id="email" type="email">
+            <label for="msg">Comments</label><textarea required name="msg" id="msg"></textarea>
+
+            <input type="submit" value="Send" onclick="show()">
+        </form>
+    </div>
+
+    <footer id="footer">
+    </footer>
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
